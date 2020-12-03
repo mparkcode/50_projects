@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Any padding/border won't effect width of element */
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  /* puts all elements in a row */
   display: flex;
+  /* puts everything back in a column but leaves it as flexbox */
   flex-direction: column;
+  /* align items center horizontally */
   align-items: center;
+  /* aligns items vertically */
   justify-content: center;
+  /* need a height to center items vertically */
   height: 100vh;
+  /* hides scrollbars by default */
   overflow: hidden;
   margin: 0;
 }
